@@ -1,12 +1,16 @@
-const Profile = ({username, tag, location, stats,  }) => {
-      console.
+import css from './Profile.module.css'
+
+
+const Profile = ({username, tag, location, stats, avatar  }) => {
+
     return(
-        <div>
-            <div>
-                <img src=""  alt="User avatar"  />
-                <p>{username}</p>
+        <div className = {css.container}>
+            <div >
+                <img src= {avatar} alt="User avatar" width="100"  />
+                <h3>{username}</h3>
                 <p>{tag}</p>
                 <p>{location}</p> 
+                
         </div>
             <ul>
             <li>
