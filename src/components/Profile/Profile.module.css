@@ -1,0 +1,57 @@
+.circleImage {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+
+  background-color: black;
+}
+.container {
+  background-color: azure;
+  padding-top: 20px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid black;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.stats {
+  color: black;
+  border: 1px solid black;
+  width: 32.86%;
+  background-color: blanchedalmond;
+}
+
+li:first-child {
+  border-bottom-left-radius: 5px;
+}
+
+li:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+p {
+  color: gray;
+}
+
+.friendList {
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  padding: 0;
+}
+
+h3 {
+  color: black;
+}
+
+span {
+  display: block;
+}
+.statsItem {
+  font-weight: bold;
+}

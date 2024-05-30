@@ -1,0 +1,19 @@
+.container {
+    padding: 40px;
+    background-color: azure;
+}
+
+.onLine {
+    color: green;
+}
+
+.ofLine {
+    color: brown;
+}
+
+.stats {
+    color: black;
+    border: 1px solid black;
+    width: 6%;
+    
+  }

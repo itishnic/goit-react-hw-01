@@ -1,9 +1,13 @@
-import userData from './userData.json'
+import userData from './userData.json';
+
+
 
 
 
 import './App.css'
-import Profile from './components/Profile'
+import Profile from './components/Profile/Profile';
+import FriendlistItem from './components/FriendListItem/FriendListItem'
+import TransactionHistory from './components/TransactionHistory/TransactionHistory'
 
 
 function App() {
@@ -21,6 +25,8 @@ function App() {
         
         
       />
+      <FriendlistItem />
+      <TransactionHistory />
     </>
   )
 }

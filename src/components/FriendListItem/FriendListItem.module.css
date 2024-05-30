@@ -1,0 +1,13 @@
+.container{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.friendList {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding: 0;
+  }
