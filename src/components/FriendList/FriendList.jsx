@@ -1,41 +1,29 @@
+
+
+
+
+
+
+import FriendListItem from "../FriendListItem/FriendListItem";
+
 import css from "./FriendList.module.css";
 
-import clsx from "clsx";
-
-const FriendList = ({ avatar, name, isOnline }) => {
-  const classNames = clsx(
-    css.stats,
-    css.container,
-    isOnline ? css.onLine : css.ofLine
-  );
-
+const FriendList = () => {
   return (
-    <>
-      <li className={classNames}>
-        <div>
-          <img src={avatar} alt="Avatar" width="48" />
-          <p>{name}</p>
-
-          {isOnline ? (
-            <p
-              style={{
-                color: "green",
-              }}
-            >
-              isOnline
-            </p>
-          ) : (
-            <p
-              style={{
-                color: "red",
-              }}
-            >
-              isOfline
-            </p>
-          )}
-        </div>
-      </li>
-    </>
+    <div className={css.container}>
+      <ul className={css.friendList}>
+        {friends.map((el) => {
+          return (
+            <FriendListItem
+              key={el.id}
+              name={el.name}
+              avatar={el.avatar}
+              isOnline={el.isOnline}
+            />
+          );
+        })}
+      </ul>
+    </div>
   );
 };
 

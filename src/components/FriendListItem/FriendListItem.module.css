@@ -1,13 +1,23 @@
-.container{
-    padding: 10px;
-    margin-bottom: 30px;
+
+
+
+
+  .container {
+    padding: 40px;
+    background-color: azure;
 }
 
-.friendList {
-    list-style: none;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
-    padding: 0;
+.onLine {
+    color: green;
+}
+
+.ofLine {
+    color: brown;
+}
+
+.stats {
+    color: black;
+    border: 1px solid black;
+    width: 5%;
+    
   }
