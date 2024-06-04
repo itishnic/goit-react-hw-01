@@ -5,6 +5,8 @@
   .container {
     padding: 40px;
     background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .onLine {
@@ -17,7 +19,7 @@
 
 .stats {
     color: black;
-    border: 1px solid black;
-    width: 5%;
+    
+   
     
   }
